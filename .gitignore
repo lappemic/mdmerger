@@ -1,0 +1,13 @@
+# General
+*.log
+*.tmp
+
+# System-specific
+.DS_Store
+Thumbs.db
+
+# Editor-specific
+*.swp
+*~
+.vscode/
+.idea/
