@@ -27,7 +27,7 @@ This will create a new markdown file with your specified main title, a ToC, and 
 After creating your merged markdown document, you may wish to convert it to PDF. I successfully used the following command for my project documentation, relying on Pandoc and wkhtmltopdf:
 
 ```bash
-pandoc gpe_poc_electrolyzers.md -o gpe_poc_electrolyzers.pdf --pdf-engine=wkhtmltopdf
+pandoc merged_file.md -o merged_file.pdf --pdf-engine=wkhtmltopdf
 ```
 
 This command requires having both Pandoc and wkhtmltopdf installed on your machine. You can install Pandoc by following the instructions on the [official website](https://pandoc.org/installing.html). For wkhtmltopdf, you can download the latest release from the [official website](https://wkhtmltopdf.org/downloads.html).
